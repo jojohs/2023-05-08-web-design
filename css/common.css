@@ -48,6 +48,7 @@ body {
 }
 
 .gnb {
+
     display: flex;
     align-items: center;
 }
@@ -276,7 +277,11 @@ body {
     background-color: #fff;
     border: 1px solid #666;
     padding: 50px 40px;
-    /* display: none; */
+    display: none;
+}
+
+.modal.active {
+    display: block;
 }
 
 .modal h2 {
